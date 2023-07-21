@@ -98,6 +98,13 @@ header nav a:visited:hover {
     color: #dd1414; 
 }
 
+#darkmode {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
 
 /* Main Container Styles */
 main {

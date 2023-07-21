@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Global Styles */
 html {
     font-family: 'Roboto', sans-serif;
@@ -29,6 +30,11 @@ h2 {
     font-size: 3rem;
 }
 
+section h2 {
+    margin-bottom: 40px;
+    padding-right: 350px;
+}
+
 p {
     margin: 1rem 0;
 }
@@ -36,6 +42,23 @@ p {
 section {
     margin: 75px 0;
 }
+
+
+/* Button Styles */
+.button-cta {
+    /*
+    font-family: 'Archivo', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #dd1414;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1rem;
+    */
+    color: #dd1414;
+}
+
 
 /* Header Styles */
 header {
@@ -75,11 +98,13 @@ header nav a:visited:hover {
     color: #dd1414; 
 }
 
+
 /* Main Container Styles */
 main {
     max-width: 1178px;
     margin: 0 auto;
 }
+
 
 /* Hero Styles */
 #hero {
@@ -110,4 +135,54 @@ main {
     border: 1px solid darkgray;
 }
 
+
 /* Services Section Styles */
+section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 25px;
+}
+
+.services-container {
+    background-color: #efefef;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px lightgray; 
+    border: 1px solid darkgray;
+}
+
+
+/* Footer Section Styles */
+footer {
+    background-color: #efefef;
+    padding: 2rem 0;
+}
+
+footer a,
+footer a:visited {
+    color: darkolivegreen;
+}
+
+footer a:hover,
+footer a:visited:hover {
+    color: #dd1414;
+}
+
+.footer-container {
+    width: 1178px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+.logos-etc li {
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+}

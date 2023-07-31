@@ -245,7 +245,37 @@ footer a:visited:hover {
 
     header, 
     #hero, 
-    #contact {
+    #contact, 
+    footer {
+        text-align: center;
+    }
+
+    main { 
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }    
+
+    .hero-content {
+        width: 100%;
+    }   
+
+    #hero {
+        flex-direction: column;
+    }
+    
+    section .container {
+        grid-template-columns: 1fr;
+    }    
+
+    header, 
+    #hero, 
+    #contact, 
+    footer {
         text-align: center;
     }
 
